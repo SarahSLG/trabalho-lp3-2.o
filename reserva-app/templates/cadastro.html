@@ -10,15 +10,14 @@
   <div class="card position-absolute top-50 start-50 translate-middle w-75">
     <div class="card-body">
       <h5 class="card-title">Cadastro</h5>
-      
-      <form class="card-text" action="/templates/login.html" method="POST"> <!--action indica a ação que o formulário irá fazer ao envia-lo, ou seja, para onde irá ser redirecionado quando o formulário for enviado-->>
+      <form class="card-text" action="/cadastro" method="post">
         <div class="mb-3">
           <label for="nome" class="form-label">Nome</label>
           <input type="text" class="form-control" name="nome" id="nome">
         </div>
         <div class="mb-3">
-          <label for="email" class="form-label">E-mail</label> 
-          <input type="email" class="form-control" name="email" id="email"> 
+          <label for="email" class="form-label">E-mail</label>
+          <input type="email" class="form-control" name="email" id="email">
         </div>
         <div class="mb-3">
           <label for="password" class="form-label">Senha</label>
